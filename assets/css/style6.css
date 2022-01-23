@@ -1,0 +1,61 @@
+html{
+    scroll-behavior: auto !important;
+}
+
+
+
+/*seteo del body y asignacion de tipografia y color de fondo*/
+body *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+
+}
+
+
+/*tamaño icono*/
+.icono_vch{
+    height: 2rem;
+}
+
+/*barra de navegacion transparente con pasicion fija*/
+.navbar{
+    background-color: transparent !important;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.cian{
+    background-color: #0dcaf0;
+}
+
+h4{
+    color: white;
+    text-align: center;
+}
+
+.card img{
+    height: 12rem;
+}
+
+.card{
+    background-color: #0dcaf0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+

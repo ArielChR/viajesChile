@@ -1,0 +1,21 @@
+/*seteo del body */
+body *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+
+}
+
+.icono_vch{
+    height: 2rem;
+}
+
+.navbar{
+    background-color: transparent !important;
+}
+
