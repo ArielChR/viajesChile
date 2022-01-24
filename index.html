@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
     <!--hoja de estilos propia-->
-    <link rel="stylesheet" href="assets/css/style4.css">
+    <link rel="stylesheet" href="assets/css/style5.css">
     <title>Viajes Chile</title>
 </head>
 <body>
@@ -51,7 +51,7 @@
     </nav>
 
     <!--Carrusel-->
-    <section class="carrusel">
+    <section id="inicio" class="carrusel">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -76,14 +76,14 @@
     </section>
 
     <!--Quienes Somos-->
-    <section class="container somos">
+    <section id="quienessomos" class="container somos">
         <h4 class="text-center p-5">QUIENES SOMOS</h4>
         <article class="row">
             <div class="col-4">
-                <div class="cian text-center">
+                <div class="bg-primary text-center">
                     <i class="fas fa-plane fa-2x"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint, deserunt nostrum enim obcaecati fugit ut nam
+                <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint, deserunt nostrum enim obcaecati fugit ut nam
                     rerum ipsam quasi fuga quam esse beatae delectus voluptatum debitis rem ad cum
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, commodi, unde et voluptas quas nemo, non
                     eos iusto sed expedita magnam! Sed molestiae, ea laboriosam itaque earum expedita assumenda magnam?
@@ -93,7 +93,7 @@
                 </p>
             </div>
             <div class="col-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint, deserunt nostrum enim obcaecati fugit ut nam
+                <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint, deserunt nostrum enim obcaecati fugit ut nam
                     rerum ipsam quasi fuga quam esse beatae delectus voluptatum debitis rem ad cum
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, commodi, unde et voluptas quas nemo, non
                     eos iusto sed expedita magnam! Sed molestiae, ea laboriosam itaque earum expedita assumenda magnam?
@@ -101,16 +101,16 @@
                     quidem, praesentium voluptates labore mollitia nostrum odio reiciendis placeat accusamus, expedita tempora
                     voluptatum fuga.
                 </p>
-                <div class="cian text-center">
+                <div class="bg-primary text-center">
                     <i class="fas fa-mountain fa-2x"></i>
                 </div>
             </div>
             <div class="col-4">
-                <div class="cian text-center">
+                <div class="bg-primary text-center">
                     <i class="fas fa-route fa-2x"></i>
                 </div>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint, deserunt nostrum enim obcaecati fugit ut nam
+                <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint, deserunt nostrum enim obcaecati fugit ut nam
                     rerum ipsam quasi fuga quam esse beatae delectus voluptatum debitis rem ad cum
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, commodi, unde et voluptas quas nemo, non
                     eos iusto sed expedita magnam! Sed molestiae, ea laboriosam itaque earum expedita assumenda magnam?
@@ -120,55 +120,111 @@
                 </p>
             </div>
         </article>
+    </section>
 
-        <!--Destacados-->
-        <Section id="container destacados P-5">
-            <h4 class="text-center p-5">DESTACADOS</h4>
-            <div class="row">
-                <div class="row row-cols-1 row-cols-md-4 g-4">
-                    <div class="col">
-                        <div class="card">
-                            <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                                    content. This content is a little bit longer.</p>
-                            </div>
+    <!--Destacados-->
+    <Section id="destacados" class="conatiner p-5">
+        <h4 class="text-center p-5">DESTACADOS</h4>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card bg-primary">
+                        <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                                    content. This content is a little bit longer.</p>
-                            </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-primary">
+                        <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                                    content. This content is a little bit longer.</p>
-                            </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-primary">
+                        <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                                    content. This content is a little bit longer.</p>
-                            </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-primary">
+                        <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </Section>
+        </div>
+    </Section>
 
-
-
+    <!--Contacto-->
+    <section id="contacto">
+        <h4 class="text-center p-5">CONTACTO</h4>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <form class="p-4">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="exampleInputNombre" placeholder="Nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="exampleInputAsunto" placeholder="Asunto">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>        
+            </div>
+        </div>
     </section>
+
+    <!--Footer-->
+    <footer id=""  class="bg-primary text-center py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 viajefooter">
+                    <h4>VIAJESCHILE</h4>
+                </div>
+                <div class="col-12 col-sm-6 iconosfooter">
+                    <a href="https://github.com/" target="_blank">
+                        <i class="fab fa-github-square fa-2x mx-2"></i>
+                    </a>
+                    <a href="https://cl.linkedin.com/" target="_blank">
+                        <i class="fab fa-linkedin fa-2x mx-2"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <i class="fab fa-twitter-square fa-2x mx-2"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook-square fa-2x mx-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>    
+    </footer>
+
+
+
+
+            
 
 
     
